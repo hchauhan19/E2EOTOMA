@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c669bdb8-21ba-49c4-aa5d-6ff962c4394f" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310100545" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310100545" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="API_Delete Pet by Id" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c669bdb8-21ba-49c4-aa5d-6ff962c4394f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
+<Acts>
+<ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="88fa5ef4-3685-4b3e-93ca-81ed6f8daa71" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="{petId}in url" Guid="afbb2a56-9535-4aed-aa89-ca4ff981f162" Param="&lt;{PETID}&gt;" ParamGuid="8abc32c5-51c1-49fd-a6ea-e21e5f4da3aa" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="f08937f4-3086-4096-8bbe-f6d6374151e3" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c3c016c7-1fbd-4d2e-bd8f-39be1cc45ec8" />
+</InputValues>
+</ActWebAPIModel>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" Guid="fd8e170b-fcf9-4cd8-8029-f50d5be5047e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>
