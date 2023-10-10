@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6c9f62d0-6b61-4bdd-8e82-e2d5b43ba887" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310100527" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="HCHAUHAN" LastUpdate="202310100528" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Web_Click on Login" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="6c9f62d0-6b61-4bdd-8e82-e2d5b43ba887" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="WebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Click Login button" Guid="19783f4d-41d3-486f-9875-36fc8c818a6f" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c938b950-f8e2-4c22-8a3f-828dfb4f7efa" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="2d476205-3521-4e32-9b18-f3c32ba50eb6" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="4afd1b1e-6914-4a95-99a7-09d0a782f842" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="90a1f2ea-779a-41a4-8097-9779519479c7_7e929497-b1c6-49b6-81dd-9459d9f3d080" />
+<ActInputValue Guid="adaae596-7ffc-4189-b70b-c59e8e27b35c" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="951c1218-0815-4070-a6a7-b90cd8b3353d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="77b9877a-38b0-4490-a84b-af613561c9ee" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="1fe63e46-06ba-49c2-8f7f-5aaeaf690fe3" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="e1589654-9070-4b3b-b7ba-3cefdc825943" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="c319fed1-6877-44d1-b0be-b882416b9e05" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>
