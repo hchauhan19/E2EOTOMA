@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="002081f3-c3cc-4d00-a03d-ceecea3a3909" ItemType="BusinessFlow" CreatedBy="meni" Created="202310121223" GingerVersion="23.4.0.0" Version="14" LastUpdateBy="meni" LastUpdate="202310121235" />
+<BusinessFlow Guid="002081f3-c3cc-4d00-a03d-ceecea3a3909" Name="BKP_APIFlow" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="BKP_API_GRP" ActivityName="BKP_Add new Pet" Guid="452f77d4-f5ec-4349-9792-e51594f0c3c5" ParentGuid="452f77d4-f5ec-4349-9792-e51594f0c3c5" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="BKP_API_GRP" ActivityName="BKP_Find pet by id" Guid="7439a021-815c-4290-bf4f-3ca6ed443943" ParentGuid="7439a021-815c-4290-bf4f-3ca6ed443943" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="BKP_API_GRP" ActivityName="BKP_Delete a pet by id" Guid="2182f296-4372-46d3-b278-ff6fa23e9acf" ParentGuid="2182f296-4372-46d3-b278-ff6fa23e9acf" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="BKP_API_GRP" ActivityName="BKP_Find pet by id again" Guid="c163f1b0-e80c-421c-9fda-8905de86b911" ParentGuid="c163f1b0-e80c-421c-9fda-8905de86b911" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="BKP_API_GRP" ActivityName="BKP_Combine_API" Guid="d57e73ae-19e4-44d9-b81a-d91eb01b1eee" ParentGuid="d57e73ae-19e4-44d9-b81a-d91eb01b1eee" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="95d9719b-9101-47c8-b326-9ff8964e701c" Name="BKP_API_GRP" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="452f77d4-f5ec-4349-9792-e51594f0c3c5" ActivityName="BKP_Add new Pet" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="5315c3cc-b350-4e7a-a4a2-1c508e39e644" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7439a021-815c-4290-bf4f-3ca6ed443943" ActivityName="BKP_Find pet by id" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="c42fa555-3ea0-4189-a0df-e73c794bc4c6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2182f296-4372-46d3-b278-ff6fa23e9acf" ActivityName="BKP_Delete a pet by id" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0360ccae-dedd-4297-a9e3-b1b734b290c6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c163f1b0-e80c-421c-9fda-8905de86b911" ActivityName="BKP_Find pet by id again" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ca1d6911-1577-45a4-a39a-5b4b2b80a738" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d57e73ae-19e4-44d9-b81a-d91eb01b1eee" ActivityName="BKP_Combine_API" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="29307421-317a-4bf2-9de0-d81c55fb07f6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="WebApp" Guid="91320f3a-0852-4be0-8d72-8f3ea8f21c8a" LastExecutingAgentName="Edge" ParentGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" />
+<TargetApplication AppName="APIApp" Guid="56afa632-34d7-4431-ad16-54cce7471a08" LastExecutingAgentName="APIAgent" ParentGuid="a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
