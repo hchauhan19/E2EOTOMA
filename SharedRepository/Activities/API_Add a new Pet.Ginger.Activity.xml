@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="733af0a9-3069-49ef-9eed-9688d502718f" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310120806" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310120806" />
+<GingerRepositoryItem><Header ItemGuid="733af0a9-3069-49ef-9eed-9688d502718f" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310120806" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="HCHAUHAN" LastUpdate="202310120810" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="API_Add a new Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="733af0a9-3069-49ef-9eed-9688d502718f" ParentGuid="733af0a9-3069-49ef-9eed-9688d502718f" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="adddc39e-637f-4937-ad15-a4e8ae06f0e5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
@@ -14,9 +14,6 @@
 <InputValues>
 <ActInputValue Guid="57fd577c-579c-40f2-9844-cea825583b06" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4e92adaf-3092-4d9e-b5aa-20ee118423a6" />
 </InputValues>
-
-<ReturnValues>
-</ReturnValues>
 </ActWebAPIModel>
 </Acts>
 
