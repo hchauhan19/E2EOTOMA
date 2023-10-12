@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="95d9719b-9101-47c8-b326-9ff8964e701c" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310121509" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310121509" />
+<ActivitiesGroup Guid="95d9719b-9101-47c8-b326-9ff8964e701c" Name="BKP_API_GRP" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="452f77d4-f5ec-4349-9792-e51594f0c3c5" ActivityName="BKP_Add new Pet" ActivityParentGuid="452f77d4-f5ec-4349-9792-e51594f0c3c5" Guid="5315c3cc-b350-4e7a-a4a2-1c508e39e644" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="7439a021-815c-4290-bf4f-3ca6ed443943" ActivityName="BKP_Find pet by id" ActivityParentGuid="7439a021-815c-4290-bf4f-3ca6ed443943" Guid="c42fa555-3ea0-4189-a0df-e73c794bc4c6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="2182f296-4372-46d3-b278-ff6fa23e9acf" ActivityName="BKP_Delete a pet by id" ActivityParentGuid="2182f296-4372-46d3-b278-ff6fa23e9acf" Guid="0360ccae-dedd-4297-a9e3-b1b734b290c6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="c163f1b0-e80c-421c-9fda-8905de86b911" ActivityName="BKP_Find pet by id again" ActivityParentGuid="c163f1b0-e80c-421c-9fda-8905de86b911" Guid="ca1d6911-1577-45a4-a39a-5b4b2b80a738" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="d57e73ae-19e4-44d9-b81a-d91eb01b1eee" ActivityName="BKP_Combine_API_copy" ActivityParentGuid="d57e73ae-19e4-44d9-b81a-d91eb01b1eee" Guid="5afb63b8-d04d-4777-b129-9d2aa32ff3ee" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8fa1d3e0-1f98-4572-9184-beb53986c0ca" ActivityName="BKP_WEB_of_APIFlow_ACTV" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="dcfdf8ba-76d7-43d9-aa19-b51ce8e0211b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

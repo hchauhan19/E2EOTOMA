@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="359befd7-7df3-4e6d-a90e-4824efaeec93" ItemType="Activity" CreatedBy="meni" Created="202310121215" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310121215" />
+<GingerRepositoryItem><Header ItemGuid="359befd7-7df3-4e6d-a90e-4824efaeec93" ItemType="Activity" CreatedBy="meni" Created="202310121508" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310121508" />
 <Activity ActionRunOption="StopActionsRunOnFailure" ActivityName="BKPAPIACTV" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="359befd7-7df3-4e6d-a90e-4824efaeec93" LinkedActive="False" ParentGuid="359befd7-7df3-4e6d-a90e-4824efaeec93" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
 <Acts>
-<ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="92a9d09a-1bfd-484b-b3c3-d177fb4b9507" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="5e7185ba-fa6a-43ba-a2e9-5bc01b839733" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Guid="8db93c20-c4fd-45b2-84f3-cf1bd28e1312" Param="&lt;ID&gt;" ParamGuid="f1b4e919-7880-4ac7-9e44-ab2e9c757490" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
 <EnhancedActInputValue Guid="9b085b2f-349a-46eb-bb64-937cb11c7180" Param="&lt;Catgid1&gt;" ParamGuid="44716c79-54c2-4420-b38e-a6a611c86f28" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" />
@@ -12,39 +12,39 @@
 </APIModelParamsValue>
 
 <InputValues>
-<ActInputValue Guid="174954db-c0ca-4254-b83e-7a3553a2e580" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4e92adaf-3092-4d9e-b5aa-20ee118423a6" />
+<ActInputValue Guid="a5d126d9-fc88-45a5-beba-39a970ea4962" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4e92adaf-3092-4d9e-b5aa-20ee118423a6" />
 </InputValues>
 </ActWebAPIModel>
-<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="b4569c5e-2586-498e-97dc-c2f2e9f4cbb7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="a4acb8a8-6a15-4c1a-adba-5468c3f94529" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Description="{petId}in url" Guid="e08dac51-74ea-41c8-9c03-d5710d342477" Param="&lt;{PETID}&gt;" ParamGuid="08eeb135-b98c-44a9-a0ab-e4b0e7d8ea62" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
 </APIModelParamsValue>
 
 <InputValues>
-<ActInputValue Guid="410a5412-2ccc-429a-9718-559d39a72422" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="19b2d7d5-a2fb-4d13-b8dd-08dd6f2e85d5" />
+<ActInputValue Guid="63bf0cb0-26fe-40d2-88fb-21db6d603822" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="19b2d7d5-a2fb-4d13-b8dd-08dd6f2e85d5" />
 </InputValues>
 </ActWebAPIModel>
-<ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="31952e39-c696-4b2d-94f3-092ed872eccb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="f9f6eac8-d70c-4849-a6d1-858446d6df4c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Description="{petId}in url" Guid="9a6b907c-858a-42a8-8fe2-2a640237c808" Param="&lt;{PETID}&gt;" ParamGuid="8abc32c5-51c1-49fd-a6ea-e21e5f4da3aa" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
 </APIModelParamsValue>
 
 <InputValues>
-<ActInputValue Guid="e3754328-98c9-4e68-bfd2-a423d3d3393e" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c3c016c7-1fbd-4d2e-bd8f-39be1cc45ec8" />
+<ActInputValue Guid="0a063ba0-f093-41c9-91f0-719dd2958bc1" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c3c016c7-1fbd-4d2e-bd8f-39be1cc45ec8" />
 </InputValues>
 </ActWebAPIModel>
-<ActWebAPIModel Active="True" Description="Find pet by ID again" Guid="080d6c5e-ce6d-4b01-87f0-179e970bb67c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActWebAPIModel Active="True" Description="Find pet by ID again" Guid="6b1ab765-0ecd-4a55-9faa-ad565148489d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Description="{petId}in url" Guid="e08dac51-74ea-41c8-9c03-d5710d342477" Param="&lt;{PETID}&gt;" ParamGuid="08eeb135-b98c-44a9-a0ab-e4b0e7d8ea62" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
 </APIModelParamsValue>
 
 <InputValues>
-<ActInputValue Guid="0f71ac73-9fd3-410d-8729-d766ca869b08" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="19b2d7d5-a2fb-4d13-b8dd-08dd6f2e85d5" />
+<ActInputValue Guid="1b122012-8a77-41c2-b459-abb1fdf81578" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="19b2d7d5-a2fb-4d13-b8dd-08dd6f2e85d5" />
 </InputValues>
 </ActWebAPIModel>
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" Guid="4f141c90-6114-4cf3-9192-18477f0c5fc5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" Guid="cb827390-3250-4e46-9125-458fc3e51886" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 </Activity></GingerRepositoryItem>
