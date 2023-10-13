@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="ff2373d6-2b75-4021-981c-ba5baf4311b0" ItemType="BusinessFlow" CreatedBy="meni" Created="202310130931" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202310130934" />
+<BusinessFlow Guid="ff2373d6-2b75-4021-981c-ba5baf4311b0" Name="API_Pet_Combine" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Combine" ActivityName="Combine_API_Pet_Combine" Guid="b14923e5-7443-4194-8259-479f975ac193" ParentGuid="b14923e5-7443-4194-8259-479f975ac193" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Combine" ActivityName="Combine_Web" Guid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" ParentGuid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="9e4188b7-d3db-4678-a519-081296edf51a" Name="Group_API_Pet_Combine" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b14923e5-7443-4194-8259-479f975ac193" ActivityName="Combine_API_Pet_Combine" ActivityParentGuid="b14923e5-7443-4194-8259-479f975ac193" Guid="55203bf4-d710-44bf-9b40-cba6d04ac3d9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" ActivityName="Combine_Web" ActivityParentGuid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" Guid="348dc97c-889e-494f-b5e6-115551266328" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="WebApp" Guid="5fb0c660-5a02-47a9-89f6-42f4a81deafa" ParentGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" />
+<TargetApplication AppName="APIApp" Guid="4516e01d-fe2b-4063-8568-ee233843e84c" ParentGuid="a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

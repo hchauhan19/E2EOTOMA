@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="9e4188b7-d3db-4678-a519-081296edf51a" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310130934" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130934" />
+<ActivitiesGroup Guid="9e4188b7-d3db-4678-a519-081296edf51a" Name="Group_API_Pet_Combine" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b14923e5-7443-4194-8259-479f975ac193" ActivityName="Combine_API_Pet_Combine" ActivityParentGuid="b14923e5-7443-4194-8259-479f975ac193" Guid="55203bf4-d710-44bf-9b40-cba6d04ac3d9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" ActivityName="Combine_Web" ActivityParentGuid="d3bb43f8-8b27-4d5f-a064-51b9c6b3d971" Guid="348dc97c-889e-494f-b5e6-115551266328" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

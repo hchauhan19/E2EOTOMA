@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b14923e5-7443-4194-8259-479f975ac193" ItemType="Activity" CreatedBy="meni" Created="202310130934" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130934" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Combine_API_Pet_Combine" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b14923e5-7443-4194-8259-479f975ac193" ParentGuid="b14923e5-7443-4194-8259-479f975ac193" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="APIApp" Type="Regular">
+<Acts>
+<ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="b6583f98-5b03-4797-b1bb-64fa8d437b3c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Guid="e1715344-042c-4265-918a-6758979a51d8" Param="&lt;ID&gt;" ParamGuid="f1b4e919-7880-4ac7-9e44-ab2e9c757490" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+<EnhancedActInputValue Guid="7b35fa58-e2d9-4ebd-8520-0a80d71d585f" Param="&lt;Catgid1&gt;" ParamGuid="44716c79-54c2-4420-b38e-a6a611c86f28" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" />
+<EnhancedActInputValue Guid="a8b3851a-0edf-48c1-b941-5dc037017952" Param="&lt;NAME&gt;" ParamGuid="190eee88-0505-4345-a6d7-eb58dfe0146b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Pet_Cat" />
+<EnhancedActInputValue Guid="b850e61d-4775-4ba7-a75d-b63efaa068cf" Param="&lt;PetNAME1&gt;" ParamGuid="28390790-c037-43ee-94c2-1de9a9310f0a" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Jerry" />
+<EnhancedActInputValue Guid="dc07035d-58e7-4105-857a-93daf9af0e98" Param="&lt;STATUS&gt;" ParamGuid="7015df81-dbf8-4bec-bde8-85c0cf7790fc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="New" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="c614b4e4-db9f-4cac-98e0-3c33030dd443" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4e92adaf-3092-4d9e-b5aa-20ee118423a6" />
+</InputValues>
+</ActWebAPIModel>
+<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="36afce37-4acd-476c-bf4e-f7542d8a9c95" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="{petId}in url" Guid="6b44ce84-c234-411b-a58c-39eaea194fd1" Param="&lt;{PETID}&gt;" ParamGuid="08eeb135-b98c-44a9-a0ab-e4b0e7d8ea62" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="2c544b3c-f75a-412f-99ed-46ffc899b171" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="19b2d7d5-a2fb-4d13-b8dd-08dd6f2e85d5" />
+</InputValues>
+</ActWebAPIModel>
+<ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="dbd8fff1-2a8e-4319-98d7-dbcff0603a97" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Description="{petId}in url" Guid="430a7a5c-ba16-4b7f-8981-d85b4740caa7" Param="&lt;{PETID}&gt;" ParamGuid="8abc32c5-51c1-49fd-a6ea-e21e5f4da3aa" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="b89ccb43-0afc-4fb5-8942-9259057c88df" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c3c016c7-1fbd-4d2e-bd8f-39be1cc45ec8" />
+</InputValues>
+</ActWebAPIModel>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" Guid="d65d4710-1441-4f57-801a-2a4ce14068dd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>
