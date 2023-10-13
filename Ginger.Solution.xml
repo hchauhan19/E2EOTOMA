@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ffe81259-be71-4ecd-91da-f78ab06b8a92" ItemType="Solution" CreatedBy="HCHAUHAN" Created="202310100515" GingerVersion="23.4.0.0" Version="6" LastUpdateBy="HCHAUHAN" LastUpdate="202310120809" />
+<GingerRepositoryItem><Header ItemGuid="ffe81259-be71-4ecd-91da-f78ab06b8a92" ItemType="Solution" CreatedBy="HCHAUHAN" Created="202310100515" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202310131202" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="ffe81259-be71-4ecd-91da-f78ab06b8a92" Name="E2EOTOMA" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="WebApp" Guid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
@@ -11,7 +11,7 @@
 </ApplitoolsConfiguration>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="ded6cefa-c1a5-4a79-af86-4c4dadb61b61" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration CentralLoggerEndPointUrl="https://gingertest:6001/" DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="ded6cefa-c1a5-4a79-af86-4c4dadb61b61" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="Yes" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
