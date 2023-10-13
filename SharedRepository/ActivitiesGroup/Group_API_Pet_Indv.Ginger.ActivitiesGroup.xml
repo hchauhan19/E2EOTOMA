@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="0f20bcda-edd2-4102-b5a8-e07525472514" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310130928" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130928" />
+<ActivitiesGroup Guid="0f20bcda-edd2-4102-b5a8-e07525472514" Name="Group_API_Pet_Indv" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ActivityName="Indv_Get Pet by Id" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="23c410b5-9471-41a0-a3fc-dc30b156a18c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5e3e9943-e57f-492d-99a6-e20d345d41d2" ActivityName="INDV_WEB" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1f23a670-ef2c-4dac-b0f4-2e4289876ce0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ig="http://insightguard.com/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_0f20bcda-edd2-4102-b5a8-e07525472514" isClosed="false" name="Group_API_Pet_Indv">
+    <documentation id="doc_Collaboration_0f20bcda-edd2-4102-b5a8-e07525472514" textFormat="text/plain" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" />
+    <bpmn:extensionElements xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+      <ig:bpmnMetadata>
+        <ig:uuid>0f20bcda-edd2-4102-b5a8-e07525472514</ig:uuid>
+        <ig:bpmnName>Group_API_Pet_Indv</ig:bpmnName>
+        <ig:description></ig:description>
+        <ig:systemRef>6ba8c218-0339-4f66-9289-42e1f6ecd7a6</ig:systemRef>
+        <ig:domainRef>32</ig:domainRef>
+        <ig:collaborationType>SUBPROCESS</ig:collaborationType>
+      </ig:bpmnMetadata>
+    </bpmn:extensionElements>
+    <bpmn:participant id="participant_6ba8c218-0339-4f66-9289-42e1f6ecd7a6" ig:systemRef="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" name="WebApp" processRef="participant_6ba8c218-0339-4f66-9289-42e1f6ecd7a6_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+    <bpmn:participant id="participant_a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" ig:systemRef="a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" name="APIApp" processRef="participant_a4b3f1e7-9ea5-4487-9c6c-5672942b37f3_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+    <bpmn:messageFlow id="flow_32d0dc7c-fb66-4657-b158-a54278142f61" ig:messageRef="" name="" sourceRef="event_c504fc36-d109-43c9-b707-6be26398bff4" targetRef="task_1030e9e5-5c2e-45b6-aee1-bbaa0df7dc6a">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:messageFlow>
+    <bpmn:messageFlow id="flow_b9d7831d-f728-4c2b-8f11-978c59b394ea" ig:messageRef="8097ecc1-9459-41e3-b3a6-c8ef8169fdbb" name="Indv_Get Pet by Id_OUT" sourceRef="task_ec32ab2e-fc86-4287-8d6d-ee55a402f52b" targetRef="task_b23127a6-16ce-4f74-9a04-e20d438ae9f3">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:messageFlow>
+    <bpmn:messageFlow id="flow_5d21a2f7-e50f-4265-bdb0-09125ebc5a4e" ig:messageRef="8097ecc1-9459-41e3-b3a6-c8ef8169fdaa" name="Indv_Get Pet by Id_IN" sourceRef="task_1030e9e5-5c2e-45b6-aee1-bbaa0df7dc6a" targetRef="task_df13589d-b1e8-4267-93d7-2507fdd1694b">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:messageFlow>
+  </bpmn:collaboration>
+  <bpmn:process id="participant_6ba8c218-0339-4f66-9289-42e1f6ecd7a6_process" isClosed="false" processType="None">
+    <bpmn:sendTask completionQuantity="1" id="task_1030e9e5-5c2e-45b6-aee1-bbaa0df7dc6a" isForCompensation="false" name="Indv_Get Pet by Id_RequestSource" startQuantity="1" implementation="##WebService">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_32d0dc7c-fb66-4657-b158-a54278142f61</bpmn:incoming>
+      <bpmn:outgoing>flow_5d21a2f7-e50f-4265-bdb0-09125ebc5a4e</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:receiveTask completionQuantity="1" id="task_b23127a6-16ce-4f74-9a04-e20d438ae9f3" isForCompensation="false" name="Indv_Get Pet by Id_ResponseTarget" startQuantity="1" implementation="##WebService" instantiate="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_b9d7831d-f728-4c2b-8f11-978c59b394ea</bpmn:incoming>
+      <bpmn:outgoing>flow_381bb3ef-7cd4-4b08-b05c-13735c6bc80f</bpmn:outgoing>
+    </bpmn:receiveTask>
+    <bpmn:userTask completionQuantity="1" id="task_5e3e9943-e57f-492d-99a6-e20d345d41d2" ig:messageRef="5e3e9943-e57f-492d-99a6-e20d345d41aa" implementation="##unspecified" isForCompensation="false" name="INDV_WEB" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_381bb3ef-7cd4-4b08-b05c-13735c6bc80f</bpmn:incoming>
+      <bpmn:outgoing>flow_84b7f818-9795-4bd3-8bca-a99049c28f50</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:endEvent id="event_e0940087-2fb4-4fc2-85e9-62e77b5b061b" name="">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_84b7f818-9795-4bd3-8bca-a99049c28f50</bpmn:incoming>
+      <bpmn:terminateEventDefinition />
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow_381bb3ef-7cd4-4b08-b05c-13735c6bc80f" name="" sourceRef="task_b23127a6-16ce-4f74-9a04-e20d438ae9f3" targetRef="task_5e3e9943-e57f-492d-99a6-e20d345d41d2">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_84b7f818-9795-4bd3-8bca-a99049c28f50" name="" sourceRef="task_5e3e9943-e57f-492d-99a6-e20d345d41d2" targetRef="event_e0940087-2fb4-4fc2-85e9-62e77b5b061b">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+  <bpmn:process id="participant_a4b3f1e7-9ea5-4487-9c6c-5672942b37f3_process" isClosed="false" processType="None">
+    <bpmn:receiveTask completionQuantity="1" id="task_df13589d-b1e8-4267-93d7-2507fdd1694b" isForCompensation="false" name="Indv_Get Pet by Id_RequestTarget" startQuantity="1" implementation="##WebService" instantiate="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_5d21a2f7-e50f-4265-bdb0-09125ebc5a4e</bpmn:incoming>
+    </bpmn:receiveTask>
+    <bpmn:sendTask completionQuantity="1" id="task_ec32ab2e-fc86-4287-8d6d-ee55a402f52b" isForCompensation="false" name="Indv_Get Pet by Id_ResponseSource" startQuantity="1" implementation="##WebService">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:outgoing>flow_b9d7831d-f728-4c2b-8f11-978c59b394ea</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:startEvent id="event_c504fc36-d109-43c9-b707-6be26398bff4" isInterrupting="true" name="" parallelMultiple="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:outgoing>flow_32d0dc7c-fb66-4657-b158-a54278142f61</bpmn:outgoing>
+    </bpmn:startEvent>
+  </bpmn:process>
+</bpmn:definitions>

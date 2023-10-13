@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1b16f03e-d0f5-47db-b4c4-d2253d55ed4d" ItemType="BusinessFlow" CreatedBy="meni" Created="202310130924" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202310130928" />
+<BusinessFlow Guid="1b16f03e-d0f5-47db-b4c4-d2253d55ed4d" Name="API_Pet_Indv" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Indv" ActivityName="Indv_Get Pet by Id" Guid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ParentGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Indv" ActivityName="INDV_WEB" Guid="5e3e9943-e57f-492d-99a6-e20d345d41d2" ParentGuid="5e3e9943-e57f-492d-99a6-e20d345d41d2" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="0f20bcda-edd2-4102-b5a8-e07525472514" Name="Group_API_Pet_Indv" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ActivityName="Indv_Get Pet by Id" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="23c410b5-9471-41a0-a3fc-dc30b156a18c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5e3e9943-e57f-492d-99a6-e20d345d41d2" ActivityName="INDV_WEB" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1f23a670-ef2c-4dac-b0f4-2e4289876ce0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="WebApp" Guid="e1e5dfb0-0166-4fbf-98ef-ee601e27fa09" ParentGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" />
+<TargetApplication AppName="APIApp" Guid="611b990e-fc9d-4d42-be8a-efedf733be8d" ParentGuid="a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
