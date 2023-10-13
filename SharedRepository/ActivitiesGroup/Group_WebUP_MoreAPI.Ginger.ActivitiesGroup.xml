@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a563ebb4-835b-4351-9ad7-33234ea00a73" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310131003" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310131003" />
+<ActivitiesGroup Guid="a563ebb4-835b-4351-9ad7-33234ea00a73" Name="Group_WebUP_MoreAPI" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="58f467d3-e9b9-4a07-860b-489624d01aa5" ActivityName="WEB_UP_ACTV_MoreAPI" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="52343990-245a-46f3-8a4a-8d6add3ed501" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1e730703-f761-4667-93c5-b5249a6f82fb" ActivityName="API_MoreAPI_1_New Pet" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1d901219-bff2-45e3-a283-2bd64ce0a944" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="06670e5f-588e-4e48-8a82-f7433bc792d8" ActivityName="API_MoreAPI_1_Get Pet" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="40282867-5662-4b5f-bf58-223e8480ff64" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
