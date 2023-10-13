@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ItemType="Activity" CreatedBy="meni" Created="202310130946" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130946" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Indv_Get Pet by Id" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ParentGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="APIApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ItemType="Activity" CreatedBy="meni" Created="202310130946" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310131359" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Indv_Get Pet by Id" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" ParentGuid="8097ecc1-9459-41e3-b3a6-c8ef8169fde8" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="c927c9f0-376b-4218-815d-17cd58bcb97e" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>

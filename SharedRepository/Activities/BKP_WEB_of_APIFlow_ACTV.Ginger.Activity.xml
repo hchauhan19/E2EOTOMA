@@ -1,3 +1,3 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8fa1d3e0-1f98-4572-9184-beb53986c0ca" ItemType="Activity" CreatedBy="meni" Created="202310121509" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310121511" />
+<GingerRepositoryItem><Header ItemGuid="8fa1d3e0-1f98-4572-9184-beb53986c0ca" ItemType="Activity" CreatedBy="meni" Created="202310121509" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202310131359" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="BKP_WEB_of_APIFlow_ACTV" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="8fa1d3e0-1f98-4572-9184-beb53986c0ca" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="WebApp" Type="Regular" /></GingerRepositoryItem>

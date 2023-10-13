@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="1e730703-f761-4667-93c5-b5249a6f82fb" ItemType="Activity" CreatedBy="meni" Created="202310131003" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310131003" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="API_MoreAPI_1_New Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="1e730703-f761-4667-93c5-b5249a6f82fb" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="APIApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="1e730703-f761-4667-93c5-b5249a6f82fb" ItemType="Activity" CreatedBy="meni" Created="202310131003" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310131359" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="API_MoreAPI_1_New Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="1e730703-f761-4667-93c5-b5249a6f82fb" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="8d965b83-8779-4435-b2c5-d4e5a3de746d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>

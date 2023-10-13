@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b14923e5-7443-4194-8259-479f975ac193" ItemType="Activity" CreatedBy="meni" Created="202310130934" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130934" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Combine_API_Pet_Combine" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b14923e5-7443-4194-8259-479f975ac193" ParentGuid="b14923e5-7443-4194-8259-479f975ac193" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="APIApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="b14923e5-7443-4194-8259-479f975ac193" ItemType="Activity" CreatedBy="meni" Created="202310130934" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310131359" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Combine_API_Pet_Combine" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b14923e5-7443-4194-8259-479f975ac193" ParentGuid="b14923e5-7443-4194-8259-479f975ac193" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="APIApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="b6583f98-5b03-4797-b1bb-64fa8d437b3c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
