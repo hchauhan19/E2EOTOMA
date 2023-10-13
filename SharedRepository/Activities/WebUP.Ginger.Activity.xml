@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" ItemType="Activity" CreatedBy="meni" Created="202310130946" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310130946" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WebUP" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" ParentGuid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="WebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="477f3405-6813-408d-b10d-7c9f8463b8b7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity></GingerRepositoryItem>

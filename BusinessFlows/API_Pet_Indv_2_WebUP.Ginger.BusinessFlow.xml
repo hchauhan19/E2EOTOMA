@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="26370bb5-4bb0-4922-8ad6-94af831e14bf" ItemType="BusinessFlow" CreatedBy="meni" Created="202310130941" GingerVersion="23.4.0.0" Version="16" LastUpdateBy="meni" LastUpdate="202310130949" />
+<BusinessFlow Guid="26370bb5-4bb0-4922-8ad6-94af831e14bf" Name="API_Pet_Indv_2_WebUP" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Indv_2_WebUP" ActivityName="WebUP" Guid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" ParentGuid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group_API_Pet_Indv_2_WebUP" ActivityName="APIDOWN" Guid="d773dfb6-6d3e-4579-bad6-0dd4297becb1" ParentGuid="d773dfb6-6d3e-4579-bad6-0dd4297becb1" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group_WebUP" ActivityName="WebUP_ACTV" Guid="6284f20f-3d02-4b70-ac7d-bc1c57515ea3" ParentGuid="6284f20f-3d02-4b70-ac7d-bc1c57515ea3" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group_WebUP" ActivityName="APIDOWN_ACTV" Guid="8c852284-6dfb-440e-ab06-321dfc19769c" ParentGuid="8c852284-6dfb-440e-ab06-321dfc19769c" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="470a3ac1-465e-453c-b60a-d0840a993c9b" Name="Group_API_Pet_Indv_2_WebUP" ParentGuid="0f20bcda-edd2-4102-b5a8-e07525472514">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" ActivityName="WebUP" ActivityParentGuid="7b5f662d-0375-4fc9-9a4b-eaf3095c83db" Guid="fb7c735d-6f89-47fc-a83f-99e95efd4511" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="d773dfb6-6d3e-4579-bad6-0dd4297becb1" ActivityName="APIDOWN" ActivityParentGuid="d773dfb6-6d3e-4579-bad6-0dd4297becb1" Guid="4e10a4de-6d57-4650-95ad-8244ff9bd749" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="eeb3f6a7-6216-4fbb-bfd1-f28b1b95609f" Name="Group_WebUP" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6284f20f-3d02-4b70-ac7d-bc1c57515ea3" ActivityName="WebUP_ACTV" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4e2e495d-7e14-464f-a738-bc2892ce4ca0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8c852284-6dfb-440e-ab06-321dfc19769c" ActivityName="APIDOWN_ACTV" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2471f57d-2065-4792-9caa-cdf4c632b260" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="WebApp" Guid="e1e5dfb0-0166-4fbf-98ef-ee601e27fa09" LastExecutingAgentName="Chrome" ParentGuid="6ba8c218-0339-4f66-9289-42e1f6ecd7a6" />
+<TargetApplication AppName="APIApp" Guid="611b990e-fc9d-4d42-be8a-efedf733be8d" LastExecutingAgentName="APIAgent" ParentGuid="a4b3f1e7-9ea5-4487-9c6c-5672942b37f3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
